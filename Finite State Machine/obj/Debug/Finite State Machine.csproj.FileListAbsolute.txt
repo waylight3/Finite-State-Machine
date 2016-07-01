@@ -1,0 +1,9 @@
+c:\users\ok\documents\visual studio 2015\Projects\Finite State Machine\Finite State Machine\bin\Debug\Finite State Machine.exe.config
+c:\users\ok\documents\visual studio 2015\Projects\Finite State Machine\Finite State Machine\bin\Debug\Finite State Machine.exe
+c:\users\ok\documents\visual studio 2015\Projects\Finite State Machine\Finite State Machine\bin\Debug\Finite State Machine.pdb
+c:\users\ok\documents\visual studio 2015\Projects\Finite State Machine\Finite State Machine\obj\Debug\Finite State Machine.csprojResolveAssemblyReference.cache
+c:\users\ok\documents\visual studio 2015\Projects\Finite State Machine\Finite State Machine\obj\Debug\Finite_State_Machine.Properties.Resources.resources
+c:\users\ok\documents\visual studio 2015\Projects\Finite State Machine\Finite State Machine\obj\Debug\Finite State Machine.csproj.GenerateResource.Cache
+c:\users\ok\documents\visual studio 2015\Projects\Finite State Machine\Finite State Machine\obj\Debug\Finite State Machine.exe
+c:\users\ok\documents\visual studio 2015\Projects\Finite State Machine\Finite State Machine\obj\Debug\Finite State Machine.pdb
+c:\users\ok\documents\visual studio 2015\Projects\Finite State Machine\Finite State Machine\obj\Debug\Finite_State_Machine.Form_Main.resources
