@@ -41,6 +41,14 @@ namespace Finite_State_Machine
 
         private void Form_Main_KeyDown(object sender, KeyEventArgs e)
         {
+            if (e.KeyCode == Keys.Escape)
+            {
+                if (MessageBox.Show("벌써 가시려구요!?", "FSM을 떠나기", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    System.Environment.Exit(0);
+                }
+            }
+
             keydown[e.KeyValue] = true;
         }
 
