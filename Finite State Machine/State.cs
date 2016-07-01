@@ -13,6 +13,8 @@ namespace Finite_State_Machine
     {
         private static int TotalStateCount = 0;
         private int index;
+        private int x;
+        private int y;
 
         /// <summary>
         /// 상태 전이 규칙들의 목록입니다.
@@ -24,6 +26,22 @@ namespace Finite_State_Machine
         public int Index
         {
             get { return index; }
+        }
+        /// <summary>
+        /// 화면 상의 X 좌표
+        /// </summary>
+        public int X
+        {
+            get { return x; }
+            set { x = value; }
+        }
+        /// <summary>
+        /// 화면 상의 Y 좌표
+        /// </summary>
+        public int Y
+        {
+            get { return y; }
+            set { y = value; }
         }
 
         /// <summary>

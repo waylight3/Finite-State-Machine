@@ -32,10 +32,10 @@ namespace Finite_State_Machine
             if (keydown[(int)Keys.A])
             {
                 State s = new State();
-                s.AddRule('0', 0, '0');
-                s.AddRule('1', 0, '1');
+                s.X = e.X;
+                s.Y = e.Y;
                 states.Add(s);
-                MessageBox.Show($"State {s.Index} added.");
+                DrawStates();
             }
         }
 
@@ -55,6 +55,22 @@ namespace Finite_State_Machine
         private void Form_Main_KeyUp(object sender, KeyEventArgs e)
         {
             keydown[e.KeyValue] = false;
+        }
+
+        private void DrawStates()
+        {
+            SolidBrush brush = new SolidBrush(Color.White);
+            Pen pen = new Pen(Color.Blue, 2);
+            Graphics g = this.CreateGraphics();
+            
+            foreach (var s in states)
+            {
+                g.FillEllipse(brush, new Rectangle(s.X - 25, s.Y - 25, 50, 50));
+                g.DrawEllipse(pen, new Rectangle(s.X - 25, s.Y - 25, 50, 50));
+                g.DrawString(s.Index.ToString(), new Font("Arial", 16), new SolidBrush(Color.Black), s.X - 10, s.Y - 10);
+            }
+            brush.Dispose();
+            g.Dispose();
         }
     }
 }
